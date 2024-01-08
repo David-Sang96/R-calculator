@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.userName,
+.userEmail,
+.userMessage {
+  width: 20rem;
+  margin-block: 5px;
+  padding: 10px 5px;
+  font-size: 1rem;
+}
+
+.contact {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-danger {
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: red;
+}
+.btn-primary {
+  background-color: blue;
+}

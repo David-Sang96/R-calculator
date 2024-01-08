@@ -23,6 +23,7 @@ function App() {
       setInputValue(inputValue.slice(0, -1));
     } else if (value === "=") {
       if (number.includes(inputValue[inputValue.length - 1])) {
+        // eslint-disable-next-line no-eval
         setOutputValue(eval(inputValue));
         setInputValue("");
       } else {
