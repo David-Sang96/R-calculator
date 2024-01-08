@@ -1,0 +1,12 @@
+.outputText {
+  min-width: 20rem;
+  min-height: 3rem;
+  background: #454545;
+  color: #fff;
+  text-align: end;
+  line-height: 3rem;
+  padding-right: 1rem;
+  font-size: 2rem;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
